@@ -509,6 +509,18 @@ li {
   font-style: italic;
   margin-top: 20px;
 }
+.icons {
+  width: 100%;
+ margin: auto;
+}
+.icons i {
+  color: #444;
+}
+.icons i:hover {
+  transition: all .2s ease-in-out;
+  transform: scale(1.2);
+  color: #3ec1d5;
+}
 input.form-control {
   outline: none;
 }
