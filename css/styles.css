@@ -49,7 +49,18 @@ li {
   color: #FFF;
   transition: all 0.2s;
 }
-
+#navbar-links i {
+  width: 15px;
+  height: 15px;
+  border: 1px solid #94E9F2;
+  border-radius: 50%;
+  padding: 5px;
+}
+#navbar-links i:hover {
+  transition: all .2s ease-in-out;
+  background-color: #3EC1D5;
+  color: #fff;
+}
 #navbar-links a:hover::after {
   background-color: transparent;
   color: #94E9F2;
